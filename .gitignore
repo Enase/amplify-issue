@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+.webpack/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Coverage directory used by tools like istanbul
+.nyc_output/
+coverage/
+.eslintcache
+
+# Jetbrains IDEs
+.idea/
+
+# Platform specific
+.DS_Store
+
+# env variables
+.env*
+!.env.default
+!.env.yml
+
+# function input data folders
+**/input/**/*.json
+
+# build artifacts
+build/
+
+# Ssh configuration
+ssh-configuration.json
